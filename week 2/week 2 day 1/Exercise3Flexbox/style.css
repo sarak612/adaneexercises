@@ -1,0 +1,42 @@
+Week 2 day 1
+#style.css 
+{
+	margin: 200px;
+	padding: 50px;
+	box-sizing:border-box;
+}
+
+
+.container {
+padding: 10px;
+margin: 50px;
+display: flex;
+flex-direction:row;
+justify-content: space-between;
+align-items: center;
+text-align: center;
+border: 5px solid red;
+flex: 50%;
+
+}
+.items-1 {
+background-color:lavender;
+color: white;
+width: 50px;
+height: 50px;
+flex: 0;
+}
+.items-2 {
+background-color:skyblue;
+color: white;
+width: 100px;
+height: 50px;
+flex: 2;
+}
+.items-3 {
+background-color:orangered;
+color: white;
+width: 100px;
+height: 50px;
+flex: 2;
+}

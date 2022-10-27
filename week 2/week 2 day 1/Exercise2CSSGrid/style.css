@@ -1,0 +1,76 @@
+Week 2 day 1
+#style.css 
+{
+	
+	box-sizing:border-box;
+}
+
+.container{
+	display: grid;
+
+		height: 400px;
+		width: 600px;
+	grid-gap: 10px;	
+
+
+}
+.items-1{
+background-color: aquamarine;
+color: white;
+grid-column-start: 1;
+grid-column-end: 3;
+height: 50px;
+text-align: center;
+
+}
+.items-2{
+background-color: lavender;
+color: white;
+height: 150px;
+grid-column-start: 1;
+grid-column-end: 1;
+text-align: center;
+}
+.items-3{
+background-color: yellow;
+color: white;
+height: 250px;
+grid-column-start: 2;
+grid-column-end: 3;
+}
+.items-4{
+background-color: olive;
+color: white;
+height: 250px;
+grid-column-start: 1;
+grid-column-end: 2;
+text-align: center;
+}
+.items-5{
+background-color: gray;
+color: white;
+text-align: center;
+height: 100px;
+grid-column-start: 2;
+grid-column-end: 3;
+}
+.items-6{
+background-color: green;
+color: white;
+text-align: center;
+height: 100px;
+
+}
+.items-7{
+background-color: lightpink;
+color: white;
+text-align: center;
+height: 100px;
+
+}
+background-color: orange;
+color: white;
+grid-column-start: 1;
+grid-column-end: 3;
+height: 30px;
+text-align: center;

@@ -1,0 +1,24 @@
+#style.css 
+{
+	margin: 200px;
+	padding: 50px;
+	box-sizing:border-box;
+}
+.zone green {
+background-color: limegreen;
+}
+
+.main-nav{
+display: flex;
+list-style: none;
+font-size: 0.7em;
+margin: 0;
+}
+
+li{
+padding: 20px;
+}
+a{
+
+text-decoration: none;
+}
