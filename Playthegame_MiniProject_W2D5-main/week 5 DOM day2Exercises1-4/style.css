@@ -1,0 +1,45 @@
+body{
+    font-size: 30px;
+}
+
+div{
+    background-color: lightskyblue;
+    padding: 20px;
+}
+li:first-child {
+    display: none;
+}
+ul > li:last-child {
+    border: 10px dotted blueviolet;
+}
+
+/* body {
+    font-size: 20px;
+}
+
+const div = document.querySelector("div")
+console.log(div.style)
+console divBackground = getComputerSytle(div).backgroundColor
+const users = document.querySelectorAll("li")
+console.log('users:', users)
+if (divBackground === "lightskyblue") {
+    console.log("this is light sky blue")
+    console.log(`Hello ${users[0].textContent} and ${users[1].textContent}`)
+}
+div {
+    background-color: lightskyblue;
+    padding: 20px;
+    }
+    li:first-child {
+        display: none;
+    }
+    li:last-child {
+        border: 8px, solid green;
+    }
+     /* 
+     image{
+        width: 100px;
+     }
+     .is-read{
+        color: red;
+     } */

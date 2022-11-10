@@ -1,0 +1,23 @@
+/* .red {
+    background-color: red;
+}
+.hide {
+    display: none;
+}
+.bold {
+font-weight: bolder;    
+}
+
+.fadeout {
+    animation:fadeout 1s;
+    animation-fill-mode: forwards;
+}
+
+@keyframes fadeout {
+    0% {
+        opacity: 1;
+    }
+    100% {
+        opacity:0;
+    }
+} */
